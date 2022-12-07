@@ -4,4 +4,4 @@ const interval = setInterval(() => {
   if (count === 10000) {
     clearInterval(interval);
   }
-}, 1000);
+}, 10);
