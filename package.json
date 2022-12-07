@@ -4,7 +4,8 @@
   "description": "练习ci用",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\"",
+    "run": "node index.js"
   },
   "keywords": [
     "ci"
