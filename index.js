@@ -1,7 +1,7 @@
 let count = 0;
 const interval = setInterval(() => {
   console.log("count is: ", count++);
-  if (count === 10000) {
+  if (count === 10) {
     clearInterval(interval);
   }
-}, 10);
+}, 1000);
